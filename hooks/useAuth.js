@@ -25,7 +25,7 @@ await Google.loginAsync(config).then(async(logInResult) => {
   return (
     <AuthContext.Provider 
     value= {{
-        user: null,
+        user: "user",
         }}
         >
      {children}
